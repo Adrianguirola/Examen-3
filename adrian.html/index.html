@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Básica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos a mi página web</h1>
+    </header>
+    <p>Los Centros de datos de Google (o Google Data Center) son instalaciones especialmente creadas por Google para el almacenamiento y gestión de sus servidores. Constan de distintos elementos electrónicos tales como sistemas de almacenamiento, dispositivos de comunicación, elementos de climatización y dispositivos de seguridad.
+
+        En esté apartado se especificaran detalles referentes a Google En el 2013 Google tenía 13 centros de datos en los que, según las estimaciones realizadas sobre los últimos datos energéticos emitidos se calcula que habría un total de 900,000 servidores.
+        
+        Los servidores que se usan en los centros de datos son montados a medida por Google y funcionan bajo una distribución de Linux también personalizada por Google.
+        
+        Ventajas
+        Distribuir los servidores de forma des-localizada en vez de en una única estructura tiene una serie de ventajas.
+        
+        Rapidez de acceso, la distancia al punto de conexión con un servidor es uno de los factores que influyen en la velocidad con la que obtendremos los datos, cuanto más cerca estemos del centro de datos correspondiente, más rápida será nuestra búsqueda.
+        
+        Fiabilidad del sistema, tener varios centros de datos en vez de uno solo de un tamaño mucho mayor, protege al sistema frente a caídas inesperadas, provocadas desde fallos en servidores, cortes de corriente, o incluso catástrofes naturales.
+        
+        Coste reducido, construir un único centro de datos centralizado y de un tamaño desmesurado es mucho más caro que construir varios más pequeños.
+        
+        Distribución en distintas franjas climáticas, los centros de datos están distribuidos a lo largo de diversas franjas climáticas con diferente estacionalidad, esto permite compensar altas temperaturas en un área, desviando el trabajo a las zonas más frías en esa época, lo cual repercute directamente en el gasto energético.
+        
+        Distribución en distintas franjas horarias, existe también la posibilidad de desplazar carga hacia los centros de datos que puedan aprovechar tarifas más bajas de electricidad, como por ejemplo durante horas nocturnas de bajo consumo.
+        
+        Flujo de datos
+        Google tiene esencialmente dos grandes redes separadas, la primera conecta los usuarios a los servicios ofrecidos por Google (Búsqueda, Gmail, YouTube, etc.) la segunda conecta los centros de datos entre sí. El sentido de esta separación de redes en vez de la integración de ambas en una sola red es debido a las diferentes características de demanda de tráfico que se aprecian entre lo que los consumidores necesitan y las necesidades de Google.
+        
+        La red de usuarios tiene un tráfico constante aunque diferenciado en dos tramos, nocturno y diurno, el segundo con una mayor carga. Los niveles de exigencia así mismo son muy altos, todos los paquetes han de llegar intactos y en el menor tiempo posible. A pesar de los tramos mencionados, el tráfico en esta red es constante, el volumen dentro de uno de los tramos no varía excesivamente de forma imprevisible ya que depende del número de usuarios de la zona que es relativamente constante.
+        
+        Sin embargo el tráfico interno es completamente cambiante frente a la regularidad del externo. Google tiene que mover petabytes de datos (índices de la WWW, backups, o incluso los datos derivados del lanzamiento de un nuevo producto) y necesita saber cuánto tiempo tardara el proceso y poder priorizar el tráfico más importante, lo cual es imposible con el sistema tradicional de transporte de datos.
+        
+        Para ello Google usa OpenFlow, un sistema Open Source desarrollado por científicos de las Universidades de Stanford y Berkley. OpenFlow se basa en la llamada Red Definida por Software (SDN, Software Defined Networking) que consiste en separar las funciones de direccionamiento de la red, aislándolas en servidores que conocen el estado completo de la red, en vez de dejándolas a decisión de los router como en el sistema tradicional.
+        
+        Tomando como ejemplo una compañía de taxis, el sistema tradicional sería en el que el taxista decide la ruta, sin saber si la calle por la que decide ir estará cortada por obras o congestionada por el tráfico. En el sistema Open Flow, el taxista preguntara su ruta a una central que conoce el estado exacto de tráfico en cada una de las calles, pudiendo tomar la decisión óptima. Esta central de tráfico podría incluso ordenar a los taxis (datos con poca importancia) permanecer en el garaje mientras pasan los camiones de bomberos (datos con mucha importancia).</p>
+    <button id="myButton">Hacer clic</button>
+    <script src="script.js"></script>
+    
+</body>
+</html>
